@@ -24,6 +24,7 @@ const typeDefs = `
 
     type Query {
         me: User!
+        user(userId: ID!): User
     }
 
     input SaveBookInput {
